@@ -1,9 +1,14 @@
 ﻿namespace AccessModifiers;
+using DemoLibrary;
 
 public class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Person person = new Person();
+
+        person.SavePerson();
+
+        Console.ReadLine();
     }
 }
